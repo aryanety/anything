@@ -1,0 +1,20 @@
+html,body {
+    font-family: "Comic Sans MS";
+}
+
+body {
+    color: #00ff1a;
+    background-color: rgb(255, 0, 174);
+}
+
+p {
+    color: white;
+}
+
+#a {
+    color: rgb(0, 4, 255);
+}
+
+.b {
+    color: yellow;
+}

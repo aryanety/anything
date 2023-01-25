@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel = "stylesheet" href = "grid.css">
+        <script src = "grid.js"> </script>
+    </head>
+
+    <body id = "any">
+        <div id = "list">
+            <form>
+                <label for = "item">
+                    Item:
+                </label>
+                <input type = "text" id = "item">
+
+                <br>
+                <br>
+
+                <label for = "cost">
+                    Cost:
+                </label>
+                <input type = "number" id = "cost" min = 0>
+
+                <br>
+                <br>
+
+                <label for = "qty">
+                    Quantity:
+                </label>
+                <input type = "number" id = "qty" min = 0>
+
+                <br>
+                <br>
+
+                <button type = "button" onclick = "dropbox();"> 
+                    Add
+                </button>
+
+                <button type = "button" onclick = "cleer();">
+                    Clear 
+                </button>
+
+                <button type = "button" onclick = "totel();">
+                    Total  
+                </button>
+            </form>
+        </div>
+
+        <table id = "tabel">
+            <tr>
+                <td>
+                    item
+                </td>
+
+                <td>
+                    quantity
+                </td>
+
+                <td>
+                    unit cost
+                </td>
+
+                <td>
+                    total cost 
+                </td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>

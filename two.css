@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin:0;
+}
+
+
+#header {
+    font-family: 'Nabla';
+    font-size: 100px;
+    background-color: rgb(117, 117, 238);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom:30px;
+    color: white; 
+}
+
+#contents {
+    font-family: 'Roboto Slab';
+    font-size: 50px;
+    background-color: rgb(190, 190, 245);
+    padding-left: 15px;
+    color: white;
+}
+
+#footer {
+    font-family: 'Roboto Slab';
+    font-size:30px;
+    background-color: rgb(190, 190, 245);
+    padding-left: 15px;
+    color: white;
+}
